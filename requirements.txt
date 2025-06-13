@@ -2,4 +2,5 @@ flask
 requests
 bs4
 supabase
-urllib3 
+urllib3
+gunicorn 

@@ -325,4 +325,5 @@ def get_student_info():
         })
 
 if __name__ == '__main__':
-    app.run(debug=True, port=5000)
+    # For local development only. In production, use gunicorn (see Procfile).
+    app.run(port=5000)
